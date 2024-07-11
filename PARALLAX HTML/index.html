@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UNICORN PARALLAX</title>
+    <script src="parallax.js"></script>
+    <link rel="stylesheet" href="index-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <img src="images/logo.png" alt="">
+                
+                </div>
+                
+            </div>
+            <ul id="scene">
+                
+                <li class="layer" data-depth="0.4"><img src="37Z_2105.w007.n001.16B.p12.16-removebg-preview.png" alt="image" class="pic1"></li>></li>
+                <li class="layer" data-depth="0.5"><img src="142046-OTBZMS-314-removebg-preview.png" alt="image" class="pic2"></li>></li>
+                <li class="layer" data-depth="0.05"><img src="stars.png" alt="image" class="pic3"></li>></li>
+                <li class="layer" data-depth="0.9"><img src="font.png" alt="image" class="pic4"></li>></li>
+               <li class="layer" data-depth="0.9"><img src="polygons.png" alt="image" class="pic5"></li>></li>
+                <li class="layer" data-depth="0.9"><img src="filledpolygon.png" alt="image" class="pic6"></li>></li>
+            </ul>
+            <script>
+                var scene = document.getElementById('scene');
+                var parallax = new Parallax(scene);
+            </script>
+        </div>
+    </main>
+</body>
+</html>
